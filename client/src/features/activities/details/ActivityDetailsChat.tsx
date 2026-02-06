@@ -9,12 +9,14 @@ export default function ActivityDetailsChat() {
                     textAlign: 'center',
                     bgcolor: 'primary.main',
                     color: 'white',
-                    padding: 2
+                    padding: 2,
+										borderTopLeftRadius: 2,
+										borderTopRightRadius: 2
                 }}
             >
                 <Typography variant="h6">Chat about this event</Typography>
             </Box>
-            <Card>
+            <Card sx={{borderTopLeftRadius: 0, borderTopRightRadius: 0, mb: 3}}>
                 <CardContent>
                     <div>
                         <form>
